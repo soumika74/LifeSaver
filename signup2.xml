@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgsignup"
+
+    android:background="@drawable/heart"
+    android:visibility="visible"
+    tools:context=".signup2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="253dp"
+            android:layout_marginEnd="90dp"
+            android:onClick="onclickdiabetics"
+            android:text="DIABETICS" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="309dp"
+            android:layout_marginEnd="7dp"
+            android:onClick="onclickbp"
+            android:text="HIGH BLOOD PRESSURE" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="201dp"
+            android:layout_marginEnd="104dp"
+            android:text="DISEASES"
+            android:textSize="16dp" />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="353dp">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="397dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="48dp"
+            android:text="ADDITIONAL DETAILS"
+            android:textAlignment="center"
+            android:textColor="#FA0B0B"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="164dp"
+            android:layout_height="33dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="328dp"
+            android:layout_marginEnd="241dp"
+            android:text="DESCRIPTION"
+            android:textSize="21dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="392dp"
+            android:layout_height="135dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:hint="TYPE YOUR TEXT HERE"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="141dp"
+            android:ems="10"
+            android:hint="AGE"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="280dp"
+            android:ems="10"
+            android:hint="CITY"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="210dp"
+            android:ems="10"
+            android:hint="STATE"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/signup2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginEnd="160dp"
+            android:text="REGISTER" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="21dp"
+            android:text="Button" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
